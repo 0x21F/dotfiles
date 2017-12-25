@@ -2,14 +2,15 @@
 # Normal stuff
 xsetroot -cursor_name left_ptr &
 compton &
-feh --bg-scale $HOME/Pictures/Backgrounds/Motherboard.jpe &
+feh --bg-scale $HOME/Pictures/Backgrounds/Motherboard.jpg &
 sxhkd &
 termite &
 launch.sh &
+xfce4-power-manager
 nm-applet &
-xfce4-power-manager &
+setxkbmap -option caps:escape
 # BSPWM Configs
-bspc monitor eDP1 -d I II III IV V VI
+bspc monitor eDP1 -d I II III IV V VI VII
 bspc config border_width         1
 bspc config window_gap           8
 
